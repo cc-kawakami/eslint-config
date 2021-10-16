@@ -1,0 +1,33 @@
+{
+  "name": "@cc-kawakami/eslint-config",
+  "description": "ES2017, standard and etc.",
+  "author": "cc-kawakami",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cc-kawakami/eslint-config"
+  },
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 14"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsdoc": "^36.1.1",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.3"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0 || ^7.32.0 || ^8.0.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsdoc": "^36.1.1"
+  }
+}
